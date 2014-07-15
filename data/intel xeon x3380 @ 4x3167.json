@@ -1,0 +1,69 @@
+{
+  "vendor": "Intel",
+  "family": "Xeon",
+  "codeName": "Yorkfield",
+  "model": "X3380",
+  "arch": {
+    "name": "Core:Yorkfield",
+    "isa": "x86-64",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE4.1"
+    ],
+    "fpPipestages": null,
+    "intPipestages": 14,
+    "maxUopIssuedPerCycle": 6,
+    "ifu": 5,
+    "lsfu": 2,
+    "fpfu": 4,
+    "tfu": null,
+    "maxInstDecoded": 5,
+    "robSize": 96,
+    "iwindow": 32,
+    "ifQueue": null,
+    "bhtSize": null,
+    "btbSize": null,
+    "bpAcc": null,
+    "archIntReg": 8533,
+    "archFpReg": null,
+    "totalArchReg": null,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": null,
+    "integratedMc": false
+  },
+  "technology": {
+    "name": null,
+    "year": 2008,
+    "technology": "CMOS",
+    "featureSize": 0.045,
+    "channelLength": 0.035,
+    "metalLayers": 9,
+    "metal": null,
+    "vddNom": null,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": "2009-02-01",
+  "clock": 3167,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 4,
+  "thermalPower": 95,
+  "busWidth": 64,
+  "transistors": 820,
+  "dieSize": 214,
+  "vdd": {
+    "low": 0.85,
+    "high": 1.362
+  }
+}

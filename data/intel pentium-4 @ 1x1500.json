@@ -1,0 +1,69 @@
+{
+  "vendor": "Intel",
+  "family": "Pentium 4",
+  "codeName": "Willamette",
+  "model": null,
+  "arch": {
+    "name": "NetBurst:Willamette",
+    "isa": "x86-32",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE2"
+    ],
+    "fpPipestages": null,
+    "intPipestages": 20,
+    "maxUopIssuedPerCycle": 6,
+    "ifu": 3,
+    "lsfu": 2,
+    "fpfu": 2,
+    "tfu": 7,
+    "maxInstDecoded": 1,
+    "robSize": 126,
+    "iwindow": null,
+    "ifQueue": null,
+    "bhtSize": 4096,
+    "btbSize": 4096,
+    "bpAcc": null,
+    "archIntReg": 128,
+    "archFpReg": 128,
+    "totalArchReg": 256,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": 3200,
+    "integratedMc": true
+  },
+  "technology": {
+    "name": "P858",
+    "year": 1999,
+    "technology": "CMOS",
+    "featureSize": 0.18,
+    "channelLength": 0.13,
+    "metalLayers": 6,
+    "metal": null,
+    "vddNom": null,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": "2000-11-01",
+  "clock": 1500,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 1,
+  "thermalPower": 52,
+  "busWidth": 32,
+  "transistors": 42,
+  "dieSize": 217,
+  "vdd": {
+    "low": 1.7,
+    "high": 1.7
+  }
+}

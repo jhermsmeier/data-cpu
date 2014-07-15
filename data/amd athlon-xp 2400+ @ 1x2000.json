@@ -1,0 +1,70 @@
+{
+  "vendor": "AMD",
+  "family": "Athlon XP",
+  "codeName": "Thoroughbred",
+  "model": "2400+",
+  "arch": {
+    "name": "K7",
+    "isa": "x86-32",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE",
+      "Subset"
+    ],
+    "fpPipestages": 15,
+    "intPipestages": 10,
+    "maxUopIssuedPerCycle": 9,
+    "ifu": 3,
+    "lsfu": 4,
+    "fpfu": 3,
+    "tfu": 9,
+    "maxInstDecoded": 3,
+    "robSize": 72,
+    "iwindow": 32,
+    "ifQueue": null,
+    "bhtSize": 4096,
+    "btbSize": 2048,
+    "bpAcc": null,
+    "archIntReg": 1600,
+    "archFpReg": null,
+    "totalArchReg": null,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": null,
+    "integratedMc": false
+  },
+  "technology": {
+    "name": null,
+    "year": 2003,
+    "technology": "CMOS",
+    "featureSize": 0.13,
+    "channelLength": 0.07,
+    "metalLayers": null,
+    "metal": null,
+    "vddNom": null,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": null,
+  "clock": 2000,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 1,
+  "thermalPower": null,
+  "busWidth": null,
+  "transistors": null,
+  "dieSize": null,
+  "vdd": {
+    "low": null,
+    "high": null
+  }
+}

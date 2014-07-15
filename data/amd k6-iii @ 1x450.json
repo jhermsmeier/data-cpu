@@ -1,0 +1,70 @@
+{
+  "vendor": "AMD",
+  "family": "K6-III",
+  "codeName": "Sharptooth",
+  "model": null,
+  "arch": {
+    "name": "K6-III",
+    "isa": "x86-32",
+    "isaVersion": null,
+    "isaExtensions": [
+      "MMX",
+      "3D-Now"
+    ],
+    "fpPipestages": null,
+    "intPipestages": null,
+    "maxUopIssuedPerCycle": null,
+    "ifu": null,
+    "lsfu": null,
+    "fpfu": null,
+    "tfu": null,
+    "maxInstDecoded": null,
+    "robSize": null,
+    "iwindow": null,
+    "ifQueue": null,
+    "bhtSize": null,
+    "btbSize": null,
+    "bpAcc": null,
+    "archIntReg": null,
+    "archFpReg": null,
+    "totalArchReg": null,
+    "fpCoproc": null,
+    "outOfOrder": false,
+    "memoryBw": null,
+    "integratedMc": false
+  },
+  "technology": {
+    "name": null,
+    "year": 1999,
+    "technology": "CMOS",
+    "featureSize": 0.25,
+    "channelLength": 0.25,
+    "metalLayers": 6,
+    "metal": null,
+    "vddNom": 1.8,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": "1999-02-01",
+  "clock": 450,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 1,
+  "thermalPower": 17.1,
+  "busWidth": 32,
+  "transistors": 21.3,
+  "dieSize": 135,
+  "vdd": {
+    "low": 2.4,
+    "high": 2.4
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "vendor": "Intel",
+  "family": "Pentium D",
+  "codeName": "Presler",
+  "model": "945",
+  "arch": {
+    "name": "NetBurst:Presler",
+    "isa": "x86-32",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE3"
+    ],
+    "fpPipestages": null,
+    "intPipestages": 31,
+    "maxUopIssuedPerCycle": 6,
+    "ifu": 3,
+    "lsfu": 2,
+    "fpfu": 2,
+    "tfu": 7,
+    "maxInstDecoded": 1,
+    "robSize": 126,
+    "iwindow": null,
+    "ifQueue": null,
+    "bhtSize": 4096,
+    "btbSize": null,
+    "bpAcc": null,
+    "archIntReg": 128,
+    "archFpReg": 128,
+    "totalArchReg": 256,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": 6400,
+    "integratedMc": true
+  },
+  "technology": {
+    "name": "P1264",
+    "year": 2005,
+    "technology": "CMOS",
+    "featureSize": 0.065,
+    "channelLength": 0.035,
+    "metalLayers": 8,
+    "metal": null,
+    "vddNom": null,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": "2006-07-01",
+  "clock": 3400,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 2,
+  "thermalPower": 95,
+  "busWidth": 64,
+  "transistors": 376,
+  "dieSize": 162,
+  "vdd": {
+    "low": 1.2,
+    "high": 1.3375
+  }
+}

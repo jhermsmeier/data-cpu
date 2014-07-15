@@ -1,0 +1,69 @@
+{
+  "vendor": "AMD",
+  "family": "Opteron",
+  "codeName": "Egypt",
+  "model": "890",
+  "arch": {
+    "name": "K8",
+    "isa": "x86-64",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE2"
+    ],
+    "fpPipestages": 17,
+    "intPipestages": 12,
+    "maxUopIssuedPerCycle": 6,
+    "ifu": 3,
+    "lsfu": 1,
+    "fpfu": 3,
+    "tfu": null,
+    "maxInstDecoded": 3,
+    "robSize": 72,
+    "iwindow": null,
+    "ifQueue": null,
+    "bhtSize": 16384,
+    "btbSize": 2048,
+    "bpAcc": null,
+    "archIntReg": null,
+    "archFpReg": null,
+    "totalArchReg": null,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": null,
+    "integratedMc": true
+  },
+  "technology": {
+    "name": null,
+    "year": 2005,
+    "technology": "CMOS",
+    "featureSize": 0.09,
+    "channelLength": 0.053,
+    "metalLayers": null,
+    "metal": null,
+    "vddNom": 1.4,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": null,
+  "clock": 2800,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 2,
+  "thermalPower": 95,
+  "busWidth": 64,
+  "transistors": 233,
+  "dieSize": 199,
+  "vdd": {
+    "low": 1.3,
+    "high": 1.35
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "vendor": "AMD",
+  "family": "Phenom X4",
+  "codeName": "Agena",
+  "model": "9350e",
+  "arch": {
+    "name": "K10",
+    "isa": "x86-64",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE4a"
+    ],
+    "fpPipestages": 17,
+    "intPipestages": 12,
+    "maxUopIssuedPerCycle": 9,
+    "ifu": 5,
+    "lsfu": 3,
+    "fpfu": 3,
+    "tfu": 11,
+    "maxInstDecoded": 3,
+    "robSize": 72,
+    "iwindow": 42,
+    "ifQueue": null,
+    "bhtSize": 16384,
+    "btbSize": 2048,
+    "bpAcc": null,
+    "archIntReg": 96,
+    "archFpReg": 96,
+    "totalArchReg": 96,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": null,
+    "integratedMc": true
+  },
+  "technology": {
+    "name": null,
+    "year": 2006,
+    "technology": "CMOS",
+    "featureSize": 0.065,
+    "channelLength": 0.035,
+    "metalLayers": 10,
+    "metal": null,
+    "vddNom": null,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": "2008-07-01",
+  "clock": 2000,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 4,
+  "thermalPower": 65,
+  "busWidth": 64,
+  "transistors": 463,
+  "dieSize": 283,
+  "vdd": {
+    "low": 1.075,
+    "high": 1.125
+  }
+}

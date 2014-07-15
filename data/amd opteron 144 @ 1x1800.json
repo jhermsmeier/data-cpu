@@ -1,0 +1,69 @@
+{
+  "vendor": "AMD",
+  "family": "Opteron",
+  "codeName": "SledgeHammer",
+  "model": "144",
+  "arch": {
+    "name": "K8",
+    "isa": "x86-64",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE2"
+    ],
+    "fpPipestages": 17,
+    "intPipestages": 12,
+    "maxUopIssuedPerCycle": 6,
+    "ifu": 3,
+    "lsfu": 1,
+    "fpfu": 3,
+    "tfu": null,
+    "maxInstDecoded": 3,
+    "robSize": 72,
+    "iwindow": null,
+    "ifQueue": null,
+    "bhtSize": 16384,
+    "btbSize": 2048,
+    "bpAcc": null,
+    "archIntReg": null,
+    "archFpReg": null,
+    "totalArchReg": null,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": null,
+    "integratedMc": true
+  },
+  "technology": {
+    "name": null,
+    "year": 2003,
+    "technology": "CMOS",
+    "featureSize": 0.13,
+    "channelLength": 0.07,
+    "metalLayers": null,
+    "metal": null,
+    "vddNom": null,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": "2003-04-01",
+  "clock": 1800,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 1,
+  "thermalPower": 89,
+  "busWidth": 64,
+  "transistors": 105.9,
+  "dieSize": 193,
+  "vdd": {
+    "low": 1.55,
+    "high": 1.55
+  }
+}

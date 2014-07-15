@@ -1,0 +1,70 @@
+{
+  "vendor": "Intel",
+  "family": "Core i7",
+  "codeName": "Sandy Bridge",
+  "model": "2600",
+  "arch": {
+    "name": "Sandy Bridge",
+    "isa": "x86-64",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE4.2",
+      "AVX"
+    ],
+    "fpPipestages": null,
+    "intPipestages": null,
+    "maxUopIssuedPerCycle": 6,
+    "ifu": 3,
+    "lsfu": 3,
+    "fpfu": 3,
+    "tfu": 5,
+    "maxInstDecoded": 6,
+    "robSize": 168,
+    "iwindow": null,
+    "ifQueue": null,
+    "bhtSize": null,
+    "btbSize": null,
+    "bpAcc": null,
+    "archIntReg": null,
+    "archFpReg": null,
+    "totalArchReg": null,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": null,
+    "integratedMc": false
+  },
+  "technology": {
+    "name": null,
+    "year": 2010,
+    "technology": "CMOS",
+    "featureSize": 0.032,
+    "channelLength": 0.018,
+    "metalLayers": 9,
+    "metal": null,
+    "vddNom": null,
+    "vth": 0.37
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": "2011-01-09",
+  "clock": 3400,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 2,
+  "cores": 4,
+  "thermalPower": 95,
+  "busWidth": 64,
+  "transistors": 995,
+  "dieSize": 216,
+  "vdd": {
+    "low": null,
+    "high": null
+  }
+}

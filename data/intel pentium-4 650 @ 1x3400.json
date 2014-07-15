@@ -1,0 +1,69 @@
+{
+  "vendor": "Intel",
+  "family": "Pentium 4",
+  "codeName": "Prescott 2M",
+  "model": "650",
+  "arch": {
+    "name": "NetBurst:Prescott",
+    "isa": "x86-32",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE3"
+    ],
+    "fpPipestages": null,
+    "intPipestages": 31,
+    "maxUopIssuedPerCycle": 6,
+    "ifu": 3,
+    "lsfu": 2,
+    "fpfu": 2,
+    "tfu": 7,
+    "maxInstDecoded": 1,
+    "robSize": 126,
+    "iwindow": null,
+    "ifQueue": null,
+    "bhtSize": 4096,
+    "btbSize": null,
+    "bpAcc": null,
+    "archIntReg": 128,
+    "archFpReg": 128,
+    "totalArchReg": 256,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": 6400,
+    "integratedMc": true
+  },
+  "technology": {
+    "name": "P1262",
+    "year": 2003,
+    "technology": "CMOS",
+    "featureSize": 0.09,
+    "channelLength": 0.053,
+    "metalLayers": 7,
+    "metal": null,
+    "vddNom": null,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": null,
+  "clock": 3400,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 2,
+  "cores": 1,
+  "thermalPower": null,
+  "busWidth": null,
+  "transistors": null,
+  "dieSize": null,
+  "vdd": {
+    "low": null,
+    "high": null
+  }
+}

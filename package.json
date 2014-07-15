@@ -1,0 +1,27 @@
+{
+  "name": "data-cpu",
+  "version": "1.0.0",
+  "description": "CPU (Central Processing Unit) Data",
+  "main": "data.json",
+  "dependencies": {},
+  "devDependencies": {
+    "csv-stringify": "0.0.3"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "node scripts/pre-publish.js",
+    "csv": "node scripts/build-csv.js"
+  },
+  "keywords": [
+    "cpu",
+    "data"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhermsmeier/data-cpu.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhermsmeier/data-cpu/issues"
+  },
+  "homepage": "https://github.com/jhermsmeier/data-cpu"
+}

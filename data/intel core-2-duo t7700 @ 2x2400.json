@@ -1,0 +1,69 @@
+{
+  "vendor": "Intel",
+  "family": "Core 2 Duo",
+  "codeName": "Merom",
+  "model": "T7700",
+  "arch": {
+    "name": "Core:Merom",
+    "isa": "x86-64",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE3"
+    ],
+    "fpPipestages": null,
+    "intPipestages": 14,
+    "maxUopIssuedPerCycle": 6,
+    "ifu": 5,
+    "lsfu": 2,
+    "fpfu": 4,
+    "tfu": null,
+    "maxInstDecoded": 5,
+    "robSize": 96,
+    "iwindow": 32,
+    "ifQueue": null,
+    "bhtSize": null,
+    "btbSize": null,
+    "bpAcc": null,
+    "archIntReg": 8533,
+    "archFpReg": null,
+    "totalArchReg": null,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": null,
+    "integratedMc": false
+  },
+  "technology": {
+    "name": "P1264",
+    "year": 2005,
+    "technology": "CMOS",
+    "featureSize": 0.065,
+    "channelLength": 0.035,
+    "metalLayers": 8,
+    "metal": null,
+    "vddNom": null,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": "2007-05-01",
+  "clock": 2400,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 2,
+  "thermalPower": 35,
+  "busWidth": 64,
+  "transistors": 291,
+  "dieSize": 143,
+  "vdd": {
+    "low": 1.0375,
+    "high": 1.3
+  }
+}

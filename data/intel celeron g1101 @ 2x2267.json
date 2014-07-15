@@ -1,0 +1,69 @@
+{
+  "vendor": "Intel",
+  "family": "Celeron",
+  "codeName": "Clarkdale",
+  "model": "G1101",
+  "arch": {
+    "name": "Nehalem",
+    "isa": "x86-64",
+    "isaVersion": null,
+    "isaExtensions": [
+      "SSE4.2"
+    ],
+    "fpPipestages": 16,
+    "intPipestages": 16,
+    "maxUopIssuedPerCycle": 5,
+    "ifu": 3,
+    "lsfu": 2,
+    "fpfu": 3,
+    "tfu": 5,
+    "maxInstDecoded": 4,
+    "robSize": 128,
+    "iwindow": 36,
+    "ifQueue": 18,
+    "bhtSize": null,
+    "btbSize": null,
+    "bpAcc": null,
+    "archIntReg": 38400,
+    "archFpReg": null,
+    "totalArchReg": null,
+    "fpCoproc": null,
+    "outOfOrder": true,
+    "memoryBw": null,
+    "integratedMc": true
+  },
+  "technology": {
+    "name": null,
+    "year": 2010,
+    "technology": "CMOS",
+    "featureSize": 0.032,
+    "channelLength": 0.018,
+    "metalLayers": 9,
+    "metal": null,
+    "vddNom": null,
+    "vth": 0.37
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": null,
+  "clock": 2267,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 2,
+  "thermalPower": null,
+  "busWidth": null,
+  "transistors": null,
+  "dieSize": null,
+  "vdd": {
+    "low": null,
+    "high": null
+  }
+}

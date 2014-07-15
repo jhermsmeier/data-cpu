@@ -1,0 +1,70 @@
+{
+  "vendor": "AMD",
+  "family": "K6-2",
+  "codeName": "Chomper Extended",
+  "model": null,
+  "arch": {
+    "name": "K6-2",
+    "isa": "x86-32",
+    "isaVersion": null,
+    "isaExtensions": [
+      "MMX",
+      "3D-Now"
+    ],
+    "fpPipestages": null,
+    "intPipestages": null,
+    "maxUopIssuedPerCycle": null,
+    "ifu": null,
+    "lsfu": null,
+    "fpfu": null,
+    "tfu": null,
+    "maxInstDecoded": null,
+    "robSize": null,
+    "iwindow": null,
+    "ifQueue": null,
+    "bhtSize": null,
+    "btbSize": null,
+    "bpAcc": null,
+    "archIntReg": null,
+    "archFpReg": null,
+    "totalArchReg": null,
+    "fpCoproc": null,
+    "outOfOrder": false,
+    "memoryBw": null,
+    "integratedMc": false
+  },
+  "technology": {
+    "name": null,
+    "year": 1998,
+    "technology": "CMOS",
+    "featureSize": 0.25,
+    "channelLength": 0.25,
+    "metalLayers": 5,
+    "metal": null,
+    "vddNom": 2.2,
+    "vth": null
+  },
+  "cache": {
+    "L1": null,
+    "L1I": null,
+    "L1D": null,
+    "L2": 1024,
+    "L2Cores": 2,
+    "L3": null,
+    "L3Cores": null
+  },
+  "date": "1998-11-01",
+  "clock": 400,
+  "maxClock": null,
+  "mips": null,
+  "threadsPerCore": 1,
+  "cores": 1,
+  "thermalPower": 13.6,
+  "busWidth": 32,
+  "transistors": null,
+  "dieSize": 81,
+  "vdd": {
+    "low": 2.4,
+    "high": 2.4
+  }
+}
