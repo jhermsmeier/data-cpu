@@ -4,7 +4,9 @@ var csv = require( 'csv-stringify' )
 
 var header = []
 
-var cs = csv({})
+var cs = csv({
+  quoted: true
+})
 var ts = csv({
   delimiter: '\x09'
 })
