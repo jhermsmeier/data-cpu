@@ -5,11 +5,15 @@ var csv = require( 'csv-stringify' )
 var header = []
 
 var cs = csv({})
-var ws = fs.createWriteStream(
-  path.join( __dirname, '..', 'data.csv' )
-)
+var ts = csv({
+  delimiter: '\x09'
+})
+
+var ws = fs.createWriteStream( path.join( __dirname, '..', 'data.csv' ) )
+var tws = fs.createWriteStream( path.join( __dirname, '..', 'data.tsv' ) )
 
 cs.pipe( ws )
+ts.pipe( tws )
 
 function createHeader( cpu ) {
   flatten( cpu, 'arch' )
@@ -18,6 +22,7 @@ function createHeader( cpu ) {
   flatten( cpu, 'vdd' )
   header = Object.keys( cpu )
   cs.write( header )
+  ts.write( header )
 }
 
 function flatten( obj, key ) {
@@ -45,6 +50,7 @@ function createRow( cpu, noflat ) {
   })
   
   cs.write( row )
+  ts.write( row )
   
 }
 
@@ -57,3 +63,4 @@ fs.readdirSync( path.join( __dirname, '..', 'data' ) )
   })
 
 cs.end()
+ts.end()
